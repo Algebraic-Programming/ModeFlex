@@ -1,0 +1,30 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.out
+*.exe
+
+# Build directories
+/build/
+/bin/
+/obj/
+/lib/
+/include/
+
+# Autotools / CMake
+Makefile
+Makefile.in
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.cmake
+
+# IDE / editor files
+*.swp
+*.swo
+*.idea/
+.vscode/
